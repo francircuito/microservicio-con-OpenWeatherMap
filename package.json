@@ -1,0 +1,29 @@
+{
+  "name": "microservicio-con-openweathermap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-with-mongodb.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/server-with-mongodb.js",
+    "test": "jest --verbose --detectOpenHandles",
+    "start": "node ./src/server-with-mongodb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "joi": "^17.12.2",
+    "moment": "^2.30.1",
+    "mongodb": "^6.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  }
+}
